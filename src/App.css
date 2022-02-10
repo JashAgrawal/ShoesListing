@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Comforter&family=Roboto:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comforter&family=Roboto:ital@0;1&family=Titillium+Web:wght@600&display=swap");
+* {
+  color: black;
+  font-family: "Comforter", cursive;
+  font-family: "Roboto", sans-serif;
+  font-family: "Titillium Web", sans-serif;
+  margin: 0px;
+}
+/* html {
+  background-color: #363636;
+} */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* border: 1px solid black; */
+}
+.justify-start {
+  justify-content: flex-start;
+}
+.row {
+  flex-direction: row !important;
+}
+html::-webkit-scrollbar {
+  display: none;
+}
