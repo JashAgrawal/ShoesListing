@@ -10,11 +10,8 @@ const Card = (props) => {
       <div
         className='heading'
         style={{
-          borderLeft: `5px solid ${
-            props?.shoe?.colorway.split("/")[0] !== "White"
-              ? props?.shoe?.colorway.split("/")[0]
-              : props?.shoe?.colorway.split("/")[1]
-          }`,
+          borderLeft: `5px solid #8739F9`,
+          
         }}
       >
         <h2>
